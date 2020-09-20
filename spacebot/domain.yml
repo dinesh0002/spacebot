@@ -1,0 +1,116 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- bot_challenge
+- planet_mercury
+- planet_mercury_year_length
+- planet_mercury_size
+- planet_mercury_days
+- planet_mercury_surface
+- planet_mercury_habitual
+- planet_mercury_moons
+- planet_venus
+- planet_venus_year_length
+- planet_venus_size
+- planet_venus_days
+- planet_venus_surface
+- planet_venus_habitual
+- planet_venus_moons
+- planet_earth
+- planet_earth_year_length
+- planet_earth_size
+- planet_earth_surface
+- planet_earth_habitual
+- planet_earth_moons
+- planet_earth_days
+- star_sun
+- planet:earth_days
+responses:
+  utter_greet:
+  - text: Hello, this is spacebot!
+  utter_goodbye:
+  - text: See you later!
+  utter_iamabot:
+  - text: I am a bot, powered by SpaceApp Bot.
+  utter_planet_mercury:
+  - text: The smallest planet in our solar system and nearest to the Sun
+  utter_planet_mercury_year_length:
+  - text: Mercury makes a complete orbit around the Sun in just 88 Earth days.
+  utter_planet_mercury_size:
+  - text: Mercury is the smallest planet in our solar system, only slightly larger
+      than Earths Moon.
+  utter_planet_mercury_days:
+  - text: One day on Mercury takes fifty nine Earth days.
+  utter_planet_mercury_surface:
+  - text: Mercury is a rocky planet, also known as a terrestrial planet. Mercury has
+      a solid, cratered surface, much like the Earth moon.
+  utter_planet_mercury_habitual:
+  - text: Mercury thin atmosphere, or exosphere, is composed mostly of oxygen (O2),
+      sodium (Na), hydrogen (H2), helium (He), and potassium (K).
+  utter_planet_mercury_moons:
+  - text: Mercury has no moons.
+  utter_planet_venus:
+  - text: Venus has been called Earths twin
+  utter_planet_venus_year_length:
+  - text: Venus makes a complete orbit around the Sun in just 225 Earth days.
+  utter_planet_venus_size:
+  - text: venus is similar in size and structure to Earth.
+  utter_planet_venus_days:
+  - text: One day on Venus lasts 243 Earth days because Venus spins backwards, with
+      its sun rising in the west and setting in the east.
+  utter_planet_venus_surface:
+  - text: Venus solid surface is a volcanic landscape covered with extensive plains
+      featuring high volcanic mountains and vast ridged plateaus.
+  utter_planet_venus_habitual:
+  - text: Venus extreme temperatures and acidic clouds make it an unlikely place for
+      life as we know it.
+  utter_planet_venus_moons:
+  - text: Venus has no moons and no rings
+  utter_planet_earth:
+  - text: Our home planet is the third planet from the Sun
+  utter_planet_earth_year_length:
+  - text: Earth makes a complete orbit around the Sun in just three 365 days.
+  utter_planet_earth_size:
+  - text: If the Sun were as tall as a typical front door, Earth would be the size
+      of a nickel.
+  utter_planet_earth_days:
+  - text: A day on Earth is twenty four hours
+  utter_planet_earth_surface:
+  - text: Earth is a rocky planet with a solid and dynamic surface of mountains, canyons,
+      plains and more. Most of our planet is covered in water.
+  utter_planet_earth_habitual:
+  - text: Earth is the perfect place for life as we know it.
+  utter_planet_earth_moons:
+  - text: earth has one moon
+  utter_sun:
+  - text: The Sun is the largest object within our solar system, comprising 99.8%
+      of the system’s mass.
+actions:
+- utter_greet
+- utter_goodbye
+- utter_iamabot
+- utter_planet_mercury
+- utter_planet_mercury_year_length
+- utter_planet_mercury_size
+- utter_planet_mercury_days
+- utter_planet_mercury_surface
+- utter_planet_mercury_habitual
+- utter_planet_mercury_moons
+- utter_planet_venus
+- utter_planet_venus_year_length
+- utter_planet_venus_size
+- utter_planet_venus_days
+- utter_planet_venus_surface
+- utter_planet_venus_habitual
+- utter_planet_venus_moons
+- utter_planet_earth
+- utter_planet_earth_year_length
+- utter_planet_earth_size
+- utter_planet_earth_days
+- utter_planet_earth_surface
+- utter_planet_earth_habitual
+- utter_planet_earth_moons
+- utter_sun
